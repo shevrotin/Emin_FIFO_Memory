@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FIFO_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FIFO_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="251.065898735 ms"></ZoomEndTime>
+      <Cursor1Time time="0.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="264"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="divider" fp_name="divider27">
+      <obj_property name="label">FIFO_tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group66" type="group">
+      <obj_property name="label">FIFO_tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/FIFO_tb/clk_tb" type="logic">
+         <obj_property name="ElementShortName">clk_tb</obj_property>
+         <obj_property name="ObjectShortName">clk_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/rst_tb" type="logic">
+         <obj_property name="ElementShortName">rst_tb</obj_property>
+         <obj_property name="ObjectShortName">rst_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/wrEn_tb" type="logic">
+         <obj_property name="ElementShortName">wrEn_tb</obj_property>
+         <obj_property name="ObjectShortName">wrEn_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/rdEn_tb" type="logic">
+         <obj_property name="ElementShortName">rdEn_tb</obj_property>
+         <obj_property name="ObjectShortName">rdEn_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/inData_tb" type="array">
+         <obj_property name="ElementShortName">inData_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">inData_tb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/outData_tb" type="array">
+         <obj_property name="ElementShortName">outData_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">outData_tb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/full_tb" type="logic">
+         <obj_property name="ElementShortName">full_tb</obj_property>
+         <obj_property name="ObjectShortName">full_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/empty_tb" type="logic">
+         <obj_property name="ElementShortName">empty_tb</obj_property>
+         <obj_property name="ObjectShortName">empty_tb</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider28">
+      <obj_property name="label">FIFO_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">FIFO_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/FIFO_tb/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/wrEn" type="logic">
+         <obj_property name="ElementShortName">wrEn</obj_property>
+         <obj_property name="ObjectShortName">wrEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/rdEn" type="logic">
+         <obj_property name="ElementShortName">rdEn</obj_property>
+         <obj_property name="ObjectShortName">rdEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/inData" type="array">
+         <obj_property name="ElementShortName">inData[7:0]</obj_property>
+         <obj_property name="ObjectShortName">inData[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/outData" type="array">
+         <obj_property name="ElementShortName">outData[7:0]</obj_property>
+         <obj_property name="ObjectShortName">outData[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/wrPtr" type="array">
+         <obj_property name="ElementShortName">wrPtr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">wrPtr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/rdPtr" type="array">
+         <obj_property name="ElementShortName">rdPtr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">rdPtr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/fifoCounter" type="array">
+         <obj_property name="ElementShortName">fifoCounter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">fifoCounter[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/dbWrEn" type="logic">
+         <obj_property name="ElementShortName">dbWrEn</obj_property>
+         <obj_property name="ObjectShortName">dbWrEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/dbRdEn" type="logic">
+         <obj_property name="ElementShortName">dbRdEn</obj_property>
+         <obj_property name="ObjectShortName">dbRdEn</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">debouncer_i_One</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">debouncer_i_One</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/dbButtonIn" type="logic">
+         <obj_property name="ElementShortName">dbButtonIn</obj_property>
+         <obj_property name="ObjectShortName">dbButtonIn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/dbClk" type="logic">
+         <obj_property name="ElementShortName">dbClk</obj_property>
+         <obj_property name="ObjectShortName">dbClk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/dbRst" type="logic">
+         <obj_property name="ElementShortName">dbRst</obj_property>
+         <obj_property name="ObjectShortName">dbRst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/dbButtonOut" type="logic">
+         <obj_property name="ElementShortName">dbButtonOut</obj_property>
+         <obj_property name="ObjectShortName">dbButtonOut</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/shift" type="array">
+         <obj_property name="ElementShortName">shift[3:0]</obj_property>
+         <obj_property name="ObjectShortName">shift[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/sum" type="logic">
+         <obj_property name="ElementShortName">sum</obj_property>
+         <obj_property name="ObjectShortName">sum</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_One/clockCounter" type="array">
+         <obj_property name="ElementShortName">clockCounter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clockCounter[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider30">
+      <obj_property name="label">debouncer_i_Two</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">debouncer_i_Two</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/dbButtonIn" type="logic">
+         <obj_property name="ElementShortName">dbButtonIn</obj_property>
+         <obj_property name="ObjectShortName">dbButtonIn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/dbClk" type="logic">
+         <obj_property name="ElementShortName">dbClk</obj_property>
+         <obj_property name="ObjectShortName">dbClk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/dbRst" type="logic">
+         <obj_property name="ElementShortName">dbRst</obj_property>
+         <obj_property name="ObjectShortName">dbRst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/dbButtonOut" type="logic">
+         <obj_property name="ElementShortName">dbButtonOut</obj_property>
+         <obj_property name="ObjectShortName">dbButtonOut</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/shift" type="array">
+         <obj_property name="ElementShortName">shift[3:0]</obj_property>
+         <obj_property name="ObjectShortName">shift[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/sum" type="logic">
+         <obj_property name="ElementShortName">sum</obj_property>
+         <obj_property name="ObjectShortName">sum</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIFO_tb/dut/i_Two/clockCounter" type="array">
+         <obj_property name="ElementShortName">clockCounter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clockCounter[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
